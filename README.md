@@ -14,11 +14,11 @@ sudo apt-get update
 sudo apt-get install mysql-client
 
 #### Database Connection & Creation
-`mysql -h 'url of database' -u 'username' -p password`
-`show databases;`
-`create database employee;`
-`use employee;`
-`create table employee(empid varchar(20),fname varchar(20),lname varchar(20),pri_skill varchar(20),location varchar(20));`
+`mysql -h 'url of database' -u 'username' -p password` <br />
+`show databases;` <br />
+`create database employee;` <br />
+`use employee;` <br />
+`create table employee(empid varchar(20),fname varchar(20),lname varchar(20),pri_skill varchar(20),location varchar(20));` <br />
 
 ### Now create an Ec2 instance where we'll host our website
 run the following commands
