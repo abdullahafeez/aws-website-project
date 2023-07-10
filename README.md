@@ -1,7 +1,7 @@
 # aws-website-project
 
 #List of AWS services used
-S3, RDS(mysql), EC2, Route53
+S3, RDS(mysql), EC2, Route53, IAM
 
 #Create S3 Bucket
 Update the name in config.py
@@ -20,6 +20,8 @@ create database employee;
 use employee;
 create table employee(empid varchar(20),fname varchar(20),lname varchar(20),pri_skill varchar(20),location varchar(20));
 
+#Now create an Ec2 instance where we'll host our website
+run the following commands
 
 # For python and related frameworks
 
@@ -34,6 +36,10 @@ sudo apt-get install python3-boto3
 #sudo apt-get install python3-pip
 #pip3 install pymysql boto3
 #pip3 install flask
+
+#IAM Role for ec2 to access s3 bucket
+We need to create a new IAM role for our newly created Ec2 service and give permissions for it to access S3 service
+Now, attach newly created role to our Ec2 instance
 
 #You need to update the IP address of the website hosted in or just type in the domain name, which is essentially the ec2 instance in our scenario
 templates/AddEmpOutput.html
