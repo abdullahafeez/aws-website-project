@@ -1,7 +1,11 @@
 # aws-website-project
 
-## List of AWS services used
-S3, RDS(mysql), EC2, Route53, IAM
+## **List of AWS services used**
+- S3
+- RDS(mysql)
+- EC2
+- Route53
+- IAM
 
 ### Create S3 Bucket
 Update the name in config.py
