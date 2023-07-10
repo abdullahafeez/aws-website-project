@@ -9,9 +9,9 @@ Update the name in config.py
 ### Create a new RDS(mysql) instance
 Update the name in config.py
 
-sudo apt-get update
+`sudo apt-get update`<br />
 #### For mysql-client
-sudo apt-get install mysql-client
+`sudo apt-get install mysql-client` <br />
 
 #### Database Connection & Creation
 `mysql -h 'url of database' -u 'username' -p password` <br />
@@ -25,17 +25,17 @@ run the following commands
 
 #### For python and related frameworks
 
-sudo apt-get install python3
+`sudo apt-get install python3` <br />
 
 ###### Either use these commands or the one starting from pip3
-sudo apt-get install python3-flask
-sudo apt-get install python3-pymysql
-sudo apt-get install python3-boto3
+`sudo apt-get install python3-flask` <br />
+`sudo apt-get install python3-pymysql` <br />
+`sudo apt-get install python3-boto3` <br />
 
 ##### if you want to install it through pip then,
-sudo apt-get install python3-pip
-pip3 install pymysql boto3
-pip3 install flask
+`sudo apt-get install python3-pip` <br />
+`pip3 install pymysql boto3` <br />
+`pip3 install flask` <br />
 
 ### IAM Role for ec2 to access s3 bucket
 We need to create a new IAM role for our newly created Ec2 service and give permissions for it to access S3 service
@@ -46,10 +46,10 @@ Use any pre-bought domain or create a free domain from freenom.com (Domains regi
 
 
 ##### You need to update the IP address of the website hosted in or just type in the domain name, which is essentially the ec2 instance in our scenario
-templates/AddEmpOutput.html
-templates/GetEmp.html
-templates/GetEmpOutput.html
+`templates/AddEmpOutput.html` <br />
+`templates/GetEmp.html` <br />
+`templates/GetEmpOutput.html` <br />
 
 #### For running application
 in our Ec2 Instance
-sudo python3 Empapp.py
+`sudo python3 Empapp.py`<br />
