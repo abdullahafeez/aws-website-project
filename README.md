@@ -41,10 +41,15 @@ sudo apt-get install python3-boto3
 We need to create a new IAM role for our newly created Ec2 service and give permissions for it to access S3 service
 Now, attach newly created role to our Ec2 instance
 
+#Route53 route to our domain name
+Use any pre-bought domain or create a free domain from freenom.com (Domains registered here are only valid for 3 months only)
+
+
 #You need to update the IP address of the website hosted in or just type in the domain name, which is essentially the ec2 instance in our scenario
 templates/AddEmpOutput.html
 templates/GetEmp.html
 templates/GetEmpOutput.html
 
 # for running application
+in our Ec2 Instance
 sudo python3 Empapp.py
