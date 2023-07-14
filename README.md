@@ -31,7 +31,7 @@ run the following commands
 
 `sudo apt-get install python3` <br />
 
-###### Either use these commands or the one starting from pip3
+##### Either use these commands or the one starting from pip3
 `sudo apt-get install python3-flask` <br />
 `sudo apt-get install python3-pymysql` <br />
 `sudo apt-get install python3-boto3` <br />
