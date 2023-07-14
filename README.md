@@ -55,5 +55,5 @@ Use any pre-bought domain or create a free domain from freenom.com (Domains regi
 `templates/GetEmpOutput.html` <br />
 
 #### For running application
-in our Ec2 Instance
+in our Ec2 Instance <br />
 `sudo python3 Empapp.py`<br />
